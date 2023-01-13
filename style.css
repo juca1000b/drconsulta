@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color:rgb(109, 196, 243);
+    color:rgb(0, 0, 0) ;
+}
+
+header h1,
+header  h2{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+body{
+    font-family: 'Lora', serif;
+
+}
+
+header nav li {
+    display:inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+header nav li a {
+    color: rgb(188, 8, 8);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    padding: 24px 0;
+}
+
+p{
+    font-size:larger;
+}
+
+footer{
+    background-color:rgb(109, 196, 243);
+    color:rgb(0, 0, 0) ;
+    padding: 16px 0;
+}
